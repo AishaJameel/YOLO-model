@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['M-0']
+
+roboflow:
+  workspace: dev-valley-ai-morning
+  project: license-plate-nddpd
+  version: 3
+  license: Private
+  url: https://app.roboflow.com/dev-valley-ai-morning/license-plate-nddpd/3
